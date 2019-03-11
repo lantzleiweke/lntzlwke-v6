@@ -1,0 +1,133 @@
+body {
+	max-width: 1024px;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+	grid-template-columns: repeat (8,1fr);
+	grid-template-rows: 128px 112px 96px 1fr 1fr 1fr 1fr 64px;
+  border: black solid 4px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.row-border {
+  border: black solid 4px;
+}
+
+.top-border {
+  border-top: black solid 4px;
+}
+
+.left-border {
+  border-left: black solid 4px;
+}
+
+.right-border {
+  border-right: black solid 4px;
+}
+
+.bottom-border {
+  border-bottom: black solid 4px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#header-text {
+  max-height: 240px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+header {
+  background-image: url(./assets/logo_8_1024x240-01.png);
+  background-size: 1024px;
+  background-repeat: no-repeat;
+}
+
+#statement-row {
+  max-height: 128px;
+}
+
+#statement-text {
+  font-weight: 500;
+  font-size: 32px;
+
+}
+
+
+.row {
+	display: grid;
+	grid-template: subgrid;
+}
+
+
+
+
+#about-row {
+}
+#about-text {
+  grid-column: 2/9;
+	grid-row: 1;
+
+}
+
+#about-icon {
+	grid-column: 1/2;
+  grid-row: 1;
+}
+
+
+
+
+#career-row {
+}
+
+#career-text {
+	grid-column: 1/8;
+	grid-row: 1;
+}
+
+#career-icon {
+	grid-column: 8/9;
+	grid-row: 1;
+}
+
+
+
+
+#client-row {
+}
+
+#client-text {
+	grid-column: 2/9;
+	grid-row: 1;
+}
+
+#client-icon {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+
+
+#skills-row {
+}
+
+#skills-text {
+	grid-column: 1/8;
+	grid-row: 1;
+}
+
+#skills-icon {
+	grid-column: 8/9;
+	grid-row: 1;
+}
+
+footer {
+
+}
