@@ -2,6 +2,7 @@
 <html class="no-js" lang="en" dir="ltr">
 
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="flickity/flickity.css">
 
 <head>
   <title>
@@ -45,19 +46,41 @@
   			CAREER
   		</div>
     </div>
-    <div id="client-row" class="row row-border">
-  		<div id="client-text">
-        <img id="bp" src="assets/clients/bp.png" />
-        <img id="emerson" src="assets/clients/emerson.png" />
-        <img id="harley" src="assets/clients/harley.png" />
-        <img id="lyndex" src="assets/clients/lyndex.png" />
-        <img id="marriott" src="assets/clients/marriott.png" />
-        <img id="nt" src="assets/clients/nt.png" />
-        <img id="sal" src="assets/clients/sal.jpg" />
-        <img id="surepayroll" src="assets/clients/surepayroll.png" />
-        <img id="whirlpool" src="assets/clients/whirlpool.png" />
+    <div id="client-row" class="row row-border" >
+      <div id="carousel" class="main-carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+        <div class="carousel-cell">
+            <img id="bp" src="assets/clients/bp.png" />
+        </div>
+        <div class="carousel-cell">
+            <img id="emerson" src="assets/clients/emerson.png" />
+        </div>
+        <div class="carousel-cell">
+            <img id="harley" src="assets/clients/harley.png" />
+        </div>
+        <div class="carousel-cell">
+            <img id="lyndex" src="assets/clients/lyndex.png" />
+        </div>
+        <div class="carousel-cell">
+          <img id="marriott" src="assets/clients/marriott.png" />
+        </div>
+        <div class="carousel-cell">
+            <img id="nt" src="assets/clients/nt.png" />
+        </div>
+        <div class="carousel-cell">
+          <img id="sal" src="assets/clients/sal.jpg" />
+        </div>
+        <div class="carousel-cell">
+          <img id="surepayroll" src="assets/clients/surepayroll.png" />
+        </div>
+        <div class="carousel-cell">
+          <img id="whirlpool" src="assets/clients/whirlpool.png" />
+        </div>
+        <div class="carousel-cell">
+          <img id="whirlpool" src="assets/clients/whirlpool.png" />
+        </div>
       </div>
-  		<div id="client-title" class="right-border-thick title">
+
+    	<div id="client-title" class="right-border-thick title">
   			CLIENTS
   		</div>
     </div>
@@ -71,6 +94,9 @@
         SKILLS
   		</div>
     </div>
+
+    <script src="flickity/flickity.pkgd.min.js"></script>
+
 </body>
 
 <footer class="row-border">

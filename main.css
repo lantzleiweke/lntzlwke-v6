@@ -91,7 +91,6 @@ header {
   vertical-align: middle;
   font-weight: 400;
 }
-
 #about-title {
 	grid-column: 1/2;
   grid-row: 1;
@@ -100,83 +99,29 @@ header {
 
 #career-row {
 }
-
 #career-text {
 	grid-column: 1/8;
 	grid-row: 1;
 }
-
 #career-title {
 	grid-column: 8/9;
 	grid-row: 1;
   background-color: #78C8BD;
-
 }
 
 
 #client-row {
 }
-
-#client-text {
-	grid-column: 2/9;
+#carousel {
+	grid-column: 1/9;
 	grid-row: 1;
-  display: grid;
-  grid-template-columns: 32px repeat(9, 86px) 32px;
-  grid-template-rows: 33px repeat(3,1fr) 33px;
-  /* padding-left: 33px;
-  padding-right: 33px;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-  justify-items: center;
-  align-items: center;
 }
-
-#bp {
-  max-height: 80px;
-  grid-column: 1/ span 2;
-  grid-row: 1/ span 2;
+.carousel-cell img {
+	max-height: 80px;
+	max-width: 80px;
+	align-content: center;
+	justify-content: center;
 }
-#emerson {
-  grid-column: 2/ span 2;
-  grid-row: 2/ span 2;
-  max-width: 80px;
-}
-#harley {
-  max-width: 80px;
-  grid-column: 3;
-  grid-row: 1;
-}
-#lyndex {
-  max-width: 96px;
-  grid-column: 4;
-  grid-row: 2;
-}
-#marriott {
-  max-width: 112px;
-  grid-column: 5;
-  grid-row: 1;
-}
-#nt {
-  max-width: 112px;
-  grid-column: 6;
-  grid-row: 2;
-}
-#sal {
-  max-width: 80px;
-  grid-column: 7;
-  grid-row: 1;
-}
-#surepayroll {
-  max-width: 120px;
-  grid-column: 8;
-  grid-row: 2;
-}
-#whirlpool {
-  max-width: 80px;
-  grid-column: 9;
-  grid-row: 1;
-}
-
 #client-title {
   grid-column: 1/2;
   grid-row: 1;
@@ -185,12 +130,10 @@ header {
 
 #skills-row {
 }
-
 #skills-text {
 	grid-column: 1/8;
 	grid-row: 1;
 }
-
 #skills-title {
 	grid-column: 8/9;
 	grid-row: 1;
@@ -230,3 +173,67 @@ footer a img  {
   grid-column: 5/6;
   grid-row: 1;
 }
+
+/* #carousel {
+	grid-column: 2/9;
+	grid-row: 1;
+  display: grid;
+  grid-template-columns: 16px repeat(9, 1fr) 16px;
+  grid-template-rows: 16px repeat(3,1fr) 16px;
+  // padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 32px;
+  padding-bottom: 32px; //
+  justify-items: center;
+  align-items: center;
+}
+
+#bp {
+  max-height: 80px;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+#sal {
+  max-width: 80px;
+  grid-column: 5/7;
+  grid-row: 2/3;
+}
+#harley {
+  max-width: 80px;
+  grid-column: 7/9;
+  grid-row: 2/3;
+}
+
+#emerson {
+  grid-column: ;
+  grid-row: 3/4;
+  max-width: 80px;
+}
+
+#lyndex {
+  max-width: 96px;
+  grid-column: ;
+  grid-row: 3/4;
+}
+#marriott {
+  max-width: 112px;
+  grid-column: ;
+  grid-row: 3/4;
+}
+#nt {
+  max-width: 112px;
+  grid-column: ;
+  grid-row: 3/4;
+}
+
+#surepayroll {
+  max-width: 120px;
+  grid-column: ;
+  grid-row: 3/4;
+}
+#whirlpool {
+  max-width: 80px;
+  grid-column: ;
+  grid-row: 3/4;
+} */
